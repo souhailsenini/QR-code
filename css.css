@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+body{
+    background-color: #d6e2f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-flow: column;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700 ;
+    color :#1f3251;
+    overflow:hidden ;
+}
+.container{
+    margin-bottom: 1rem;
+    align-content:space-between ;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1rem;
+    text-align: center;
+    width: 250px;
+}
+img{
+    border-radius: 20px;
+}
+
+
+
+p{
+    font-size: 0.8rem;
+    color:#7b879d;
+    font-weight: 400;
+}
+
+.attribution {
+        font-weight: 400;
+        font-size: 11px;
+        text-align: center;
+}
+      .attribution a {
+        text-decoration: none;
+        color: hsl(228, 45%, 44%);
+}
